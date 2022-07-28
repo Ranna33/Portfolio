@@ -3,7 +3,8 @@ import React from 'react';
 const BackgroundAnimation = () => (
   <div style={{zIndex:"-1"}}>
   
-    <svg width="696" height="694" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg   className="BgAnimation__svg"
+	width="696" height="694" viewBox="0 0 696 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint0_linear)">
 	<animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="5s"
 	
