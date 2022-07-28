@@ -2,10 +2,9 @@ import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
   padding: 1rem;
   padding-top: 2rem;
 
@@ -49,10 +48,11 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
+  margin-left:1.5rem;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: #b8070b;
     opacity: 1;
     cursor: pointer;
   }

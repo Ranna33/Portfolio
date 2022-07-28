@@ -13,8 +13,8 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Portfolio
+          I BUILD <br />
+          STUFF!
         </SectionTitle>
         <SectionText>I'm a Frontend Developer and Designer.</SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
