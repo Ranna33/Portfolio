@@ -5,7 +5,6 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-// import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection,Button } from "./HeroStyles";
 
 const Hero = (props) => (

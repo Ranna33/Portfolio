@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+
 
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-           <span><img width="6%"  src='/images/Rana-1.png'/></span>
+           <span><img width="50px"  src='/images/Rana-1.png'/></span>
         </a>
       </Link>
     </Div1>
@@ -31,17 +31,7 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
-      {/* <Div3>
-        <SocialIcons href="https://google.com">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons>
-      </Div3> */}
+     
     </Container>
 );
 

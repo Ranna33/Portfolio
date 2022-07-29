@@ -48,7 +48,8 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  margin-left:1.5rem;
+  margin-left:1.7rem;
+  font-weight:bold;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
