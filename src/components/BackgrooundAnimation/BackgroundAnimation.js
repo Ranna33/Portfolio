@@ -1,11 +1,12 @@
 import React from "react";
 
+
 const BackgroundAnimation = () => (
-  <div style={{ zIndex: "-1" }}>
+  <div className="bg" >
     <svg
       className="BgAnimation__svg"
-      width="696"
-      height="694"
+      width="700"
+      height="650"
       viewBox="0 0 696 694"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
